@@ -1,0 +1,11 @@
+预处理
+
+python preprocess.py --text_index 1 --filelists filelists\list.txt filelists\lista.txt
+
+情感处理
+
+python emotion_extract.py --filelists filelists/list.txt filelists/lista.txt
+
+开始训练
+
+python train.py -c configs\nene.json -m nene
